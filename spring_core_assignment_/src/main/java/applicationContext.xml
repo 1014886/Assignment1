@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	 	
+  <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd">
+	
+
+
+	 	 <bean id="que2" class="com.yash.spring_core_assignment_.Q2.Average">
+	     <property name="num"> 
+	     <list>
+	     <value>90</value>
+	     <value>70</value>
+	     <value>80</value>
+	     <value>50</value>
+	     <value>60</value>
+	     </list>
+	     </property>
+	 	  </bean>
+
+
+	 	 <bean id="que5" class="com.yash.spring_core_assignment_.Q5.MaxNumber">
+	     <property name="num"> 
+	     <list>
+	     <value>90</value>
+	     <value>70</value>
+	     <value>80</value>
+	     <value>50</value>
+	     <value>60</value>
+	     </list>
+	     </property>
+	     </bean>
+	     
+	       <bean id="que8" class="com.yash.spring_core_assignment_.Q8.ItemList">
+	     <property name="name"> 
+	     <list>
+	     <value>mobile</value>
+	     <value>mobile</value>
+	     <value>laptop</value>
+	     <value>tv</value>
+	     <value>bike</value>
+	     <value>cap</value>
+	     <value>cap</value>
+	     </list>
+	     </property>
+	     </bean>
+	     
+	 <!--    <bean id="que10" class="com.yash.spring_core_assignment_.Q10.Student">
+    <constructor-arg>
+           <map>
+            <entry key="sunil" value="458" />
+            <entry key="nitin" value="400" />
+             <entry key="sandip" value="470" />
+            <entry key="vaibhav" value="430" />
+             <entry key="anil" value="370" />
+            <entry key="nilesh" value="500" />
+        </map>
+    </constructor-arg>
+</bean>  -->
+	     	     
+	
+	        	     
+	     <bean id="que6" class="com.yash.spring_core_assignment_.Q6.Vowel">
+	     <property name="str"> 
+	     <array>
+	     <value>mobile</value>
+	     <value>computer</value>
+	     <value>fly</value>
+	     <value>laptop</value>
+	     <value>bottal</value>
+	     </array>
+	     </property>
+	     </bean>
+  
+	   
+	     </beans>
